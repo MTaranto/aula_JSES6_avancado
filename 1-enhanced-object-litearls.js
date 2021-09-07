@@ -16,11 +16,11 @@ var obj = {
 obj.method1();
 
 // mais um exemplo com short end
-      var obj = {
-        sum(a, b) {       // omitindo a palavra function
-          return a + b
-        }
-      };
+var obj = {
+  sum(a, b) {       // omitindo a palavra function
+    return a + b
+  }
+};
 console.log(obj.sum(2, 5)); // retorna 7
 console.log(obj); // retorna { sum: [Function: sum] }
 

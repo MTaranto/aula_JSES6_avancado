@@ -14,13 +14,13 @@ function doOtherSomething (callback) {
 
 function doAll () {
   doSomething(function(data) {
-    var processeData = data.split('');
+    var processData = data.split('');
     
     doOtherSomething(function(data2) {
-      var processeData2 = data2.split('');
+      var processData2 = data2.split('');
 
       setTimeout(function() {
-        console.log(processData, processeData2);
+        console.log(processData, processData2);
       })
     });
   });

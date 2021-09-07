@@ -11,9 +11,8 @@ function randomNumber() {
   console.log('Genetating a random number...');
   return Math.random() * 10;
 }
-    function multiply(a, b = randomNumber()) {
-      return a * b;
-    }
-
-    console.log(multiply(5)); // cada vez que a função é invocada
-    console.log(multiply(5)); // gera um número diferente
+function multiply(a, b = randomNumber()) {
+  return a * b;
+}
+console.log(multiply(5)); // cada vez que a função é invocada
+console.log(multiply(5)); // gera um número diferente

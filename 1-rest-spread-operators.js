@@ -13,7 +13,7 @@ function sum (...args) {
 }
 console.log(sum(5, 5, 5, 2, 3)); // retorna 20
 
-// exemplificando 1 (manipulando argumentos restantes)
+// exemplificando 1 (manipulando restante dos argumentos)
 const sum = (a, b, ...rest) => {
   console.log(a, b, rest);        // retorna 5 5 [ 5, 2, 3 ]
 };
