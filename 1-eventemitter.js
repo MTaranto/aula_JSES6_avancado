@@ -13,5 +13,5 @@ users.on('User logged', data => {
   console.log(data);
 });
 
-users.userLogged({user: 'Márcio Taranto'});
+users.userLogged({user: 'Márcio Taranto'}); // retorna { user: 'Márcio Taranto' }
 // emitter.emit('User logged', {user: 'Márcio Taranto'});
